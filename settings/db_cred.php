@@ -3,6 +3,6 @@
 define("DATABASE", "miro");
 define("SERVER", "localhost");
 define("USERNAME", "root");
-define("PASSWD", "");
+define("PASSWD", "astralDev@eli@s@2023");
 
 ?>
