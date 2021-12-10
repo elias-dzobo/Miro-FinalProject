@@ -82,7 +82,7 @@ if(isset($_POST["submit"])){
         session_start();
         // store the errors inside session
         $_SESSION["errors"] = $errors;
-        header("location: ../signup.php");
+        header("location: ../index.php");
     }
     
 } 
