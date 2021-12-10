@@ -4,7 +4,7 @@ include_once (dirname(__FILE__)).'/../controllers/post_controller.php';
 if(isset($_GET['id'])){
     $post = getSinglePost($_GET['id']);
     if(empty($post)){
-      header("location: ../index.php");
+      header("location: ../main.php");
     }
 }else{
     echo "not working";
@@ -33,7 +33,7 @@ if(isset($_GET['id'])){
         <br>
         <button type="button" class="btn btn-danger"><a style="text-decoration:none; color:white;" href="../functions/post_delete.php?id=<?= $post['p_id'] ?>">Delete</a> </button>
         <button type="button" class="btn btn-primary"><a style="text-decoration:none; color:white;" href="../view/post_update.php?id=<?= $post['p_id'] ?>">Update</a> </button>
-        <a class="btn btn-primary" href="../index.php">Back to Home</a> 
+        <a class="btn btn-primary" href="../main.php">Back to Home</a> 
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

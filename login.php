@@ -55,7 +55,7 @@ session_start();
                     <button class="btn btn-primary" name = 'login'>Log In</button>
                     <div >
                         <p>
-                            <center>New User? <a href="signup.php">Sign Up</a></center>
+                            <center>New User? <a href="index.php">Sign Up</a></center>
                             <center><a href="forgotpassword.php">Forgot Password?</a></center>
                         </p>
                     </div>

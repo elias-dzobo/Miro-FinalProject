@@ -4,7 +4,7 @@ include_once (dirname(__FILE__)).'/../controllers/post_controller.php';
 if(isset($_GET['id'])){
     $post = getSinglePost($_GET['id']);
 }else{
-    header("location: ../index.php");
+    header("location: ../main.php");
 }
 ?>
 
@@ -24,7 +24,7 @@ if(isset($_GET['id'])){
   </head>
   <body>
     <div class="container container-custom">
-    <a class="btn btn-primary" href="../index.php">Back to Home</a> 
+    <a class="btn btn-primary" href="../main.php">Back to Home</a> 
         <h1>Edit</h1>
         <h6>Update your Blog Post</h6>
         <form method="POST" action="../functions/post_update.php">

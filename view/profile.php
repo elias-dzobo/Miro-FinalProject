@@ -25,7 +25,7 @@ $username = getUsername($email);
     <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-4 pt-1">
-            <a class="link-secondary" href="../index.php">Home</a>
+            <a class="link-secondary" href="../main.php">Home</a>
         </div>
         <div class="col-4 d-flex justify-content-end align-items-center">
             <a class="link-secondary" href="#" aria-label="Search">

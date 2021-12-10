@@ -13,6 +13,6 @@ if(isset($_POST['submit'])){
     // create post if not empty
     $newPost = createPost($title, $body, $id);
     if($newPost){
-        header("location: ../index.php");
+        header("location: ../main.php");
     }
 } 

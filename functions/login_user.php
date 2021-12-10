@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
 
         echo "success";
 
-        header("location: ../index.php"); 
+        header("location: ../main.php"); 
 
 
     }else{
